@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { TailSpin } from "react-loader-spinner";
+//import { TailSpin } from "react-loader-spinner";
 import WeatherInfo from "./weatherInfo";
 import WeatherForecast from "./weatherForecast";
 
@@ -40,11 +40,11 @@ export default function Weather(props) {
       <div className="wrap">
         <header className="header">
           <section className="city-suggestions">
-            <a href="/">Jos</a>
-            <a href="/">Quebec</a>
-            <a href="/">Cairo</a>
-            <a href="/">Accra</a>
-            <a href="/">Lisbon</a>
+            <a href="/">Abia</a>
+            <a href="/">Berlin</a>
+            <a href="/">Paris</a>
+            <a href="/">Johannesburg</a>
+            <a href="/">Kuwait</a>
           </section>
           <div className="search-current-wrap">
             <form onSubmit={handleSearch} className="search-form">
@@ -89,7 +89,7 @@ export default function Weather(props) {
             rel="noreferrer"
           >
             {" "}
-            Open Source Code
+            Open Source Code on github
           </a>
         </footer>
       </div>
@@ -97,18 +97,18 @@ export default function Weather(props) {
   } else {
     search();
     return `loading...`;
-    <h3>
-      <TailSpin
-        height="80"
-        width="80"
-        color="#4fa94d"
-        ariaLabel="tail-spin-loading"
-        radius="1"
-        wrapperStyle={{}}
-        wrapperClass=""
-        visible={true}
-        timeout="3000" //3secs
-      />
-    </h3>;
+    //<h3>
+    //<TailSpin
+    // height="80"
+    //width="80"
+    //color="#4fa94d"
+    //ariaLabel="tail-spin-loading"
+    //radius="1"
+    //wrapperStyle={{}}
+    //wrapperClass=""
+    //visible={true}
+    //timeout="3000" //3secs
+    ///>
+    //</h3>;
   }
 }
