@@ -83,7 +83,7 @@ export default function Weather(props) {
             </a>
           </p>
           <a
-            href="https://github.com/emeh-glory-chiamaka-weather-react"
+            href="https://github.com/emehglorychiamaka/weather-react"
             className="footerlink"
             target="_blank"
             rel="noreferrer"
